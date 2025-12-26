@@ -1,0 +1,12 @@
+1) Create and activate a virtualenv.
+2) Install requirements:
+   pip install pygetwindow pycaw comtypes psutil pystray pillow win10toast requests pygame pyinstaller
+   (Tkinter is built-in with standard Python on Windows.)
+3) Test app by running: python main.pyw
+4) Build tray EXE:
+   python -m PyInstaller --noconsole --onefile --add-data "resources/icon.png;resources" main.pyw
+   Rename dist/main.exe -> dist/SpotifyTray.exe
+5) Build settings EXE:
+   python -m PyInstaller --noconsole --onefile settings_tk.py
+   Rename dist/settings_tk.exe accordingly if needed.
+6) Place both EXEs in dist\ and run: makensis installer.nsi

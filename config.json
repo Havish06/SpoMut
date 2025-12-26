@@ -1,0 +1,6 @@
+{
+  "start_on_boot": true,
+  "notifications": true,
+  "webhook_enabled": false,
+  "webhook_url": "http://127.0.0.1:8000/event"
+}
