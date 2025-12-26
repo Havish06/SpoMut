@@ -7,8 +7,8 @@ SpoMut is a Python utility for automatically muting and unmuting Spotify Desktop
 SpoMut runs in the background and controls Spotify audio based on playback state.
 
 Rules:
-* music playing → unmute  
-** advertisement or idle state → mute  
+* music playing → unmute *
+** advertisement or idle state → mute **
 *** no Spotify API, OAuth, or cloud services ***
 
 ---
