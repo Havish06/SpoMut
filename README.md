@@ -21,13 +21,13 @@ Install dependencies using pip:
 pip install pygetwindow psutil pywin32 pystray pillow requests
 ```
 
-##Clone the repository:
+## Clone the repository:
 
 ```git clone https://github.com/Havish06/SpoMut.git
 cd SpoMut
 ```
 
-##Usage
+## Usage
 Run SpoMut from the project directory:
 
 ```
@@ -37,7 +37,7 @@ SpoMut will start in the system tray and monitor Spotify automatically.
 
 Example Log Output
 
-[EVENT] 'Spotify Free' -> 'Song Name - Artist' | ACTION=UNMUTE
+[EVENT] 'Spotify Free' -> 'Song Name - Artist' | ACTION=UNMUTE <br>
 [EVENT] 'Song Name - Artist' -> 'Advertisement' | ACTION=MUTE
 
 
